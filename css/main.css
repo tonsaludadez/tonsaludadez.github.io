@@ -1,32 +1,35 @@
-@ media only screen and (max-device-width: 480px) {
+@ media screen and (max-device-width: 480px) {
   .site {
     display: grid;
     grid-template-columns: auto;
     grid-template-rows: 2fr 1fr 2fr auto 1fr;
+    gride-template-areas:
+      "header"
+      "title"
+      "sidebar"
+      "main"
+      "footer"
   }
 
-  .header {
-    grid-column:1/2;
-    grid-row:1/2;
-  }
+}
 
-  .page-title {
-    grid-column:1/2;
-    grid-row:2/3;
-  }
 
-  .main {
-    grid-column:1/2;
-    grid-row:3/4;
-  }
-  
-  .sidebar {
-    grid-column:1/2;
-    grid-row:2/3;
-  }
+.header {
+  grid-area: header;
+}
 
-  .footer 
-    grid-column:1/2;
-    grid-row:4/5;
-  }
+.page-title {
+  grid-area: title;
+}
+
+.main-content {
+  grid-area: main;
+}
+
+.sidebar {
+  grid-area: sidebar;
+}
+
+.footer {
+  grid-area: footer;
 }
