@@ -45,4 +45,8 @@ nav a {
     display: block;
     width: 60px;
   }
+  
+  li a {
+    display: inline;
+  }
 }
