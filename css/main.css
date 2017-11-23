@@ -24,7 +24,7 @@
   padding: 0;
 }
 
-li {
+nav a {
   display: inline;
 }
 
@@ -41,7 +41,7 @@ li {
     "footer footer";
   }
   
-  li a {
+  nav a {
     display: block;
     width: 60px;
   }
