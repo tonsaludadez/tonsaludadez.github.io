@@ -32,6 +32,10 @@ nav a {
   display: inline;
 }
 
+.footer li  {
+  display: inline;
+}
+
 .fa {
   padding: 20px;
   font-size: 30px;
@@ -71,9 +75,5 @@ nav a {
   nav a {
     display: block;
     width: 60px;
-  }
-  
-  .footer li  {
-    display: inline;
   }
 }
