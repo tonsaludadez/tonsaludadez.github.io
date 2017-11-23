@@ -29,7 +29,7 @@
 .footer {
   grid-area: footer;
 }
-
+<!--
 @ media screen and (min-width: 480px) {
   .site {
     grid-template-columns: 2fr auto 1fr;
@@ -40,4 +40,4 @@
       "sidebar main main"
       "footer footer footer";
   }
-}
+}-->
