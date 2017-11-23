@@ -23,10 +23,11 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 2fr 1fr 2fr 1fr;
+    grid-template-areas:
     "header header"
     "title title"
     "sidebar main"
     "sidebar main"
-    "footer footer"
+    "footer footer";
   }
 }
