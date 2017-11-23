@@ -10,8 +10,8 @@
   grid-area: main;
 }
 
-.sidebar {
-  grid-area: sidebar;
+.nav-menu {
+  grid-area: navi;
 }
 
 .footer {
@@ -36,8 +36,8 @@ nav a {
     grid-template-areas:
     "header header"
     "title title"
-    "sidebar main"
-    "sidebar main"
+    "navi main"
+    "navi main"
     "footer footer";
   }
   
