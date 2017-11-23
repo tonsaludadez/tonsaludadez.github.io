@@ -36,10 +36,9 @@ nav a {
   display: inline;
 }
 
-.social a {
+.fa {
   text-decoration: none;
 }
-
 @media screen and (min-width: 34em){
   .site {
     display: grid;
