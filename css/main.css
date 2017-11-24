@@ -4,12 +4,13 @@ html {
 
 .masthead {
   grid-area: header;
-  color: black;
+  background-color: black;
+  color: white;
 }
 
 .page-title {
   grid-area: title;
-  color: gray;
+  background-color: gray;
 }
 
 .main-content {
@@ -18,12 +19,12 @@ html {
 
 .nav-menu {
   grid-area: navi;
-  color: yellow;
+  background-color: yellow;
 }
 
 .footer {
   grid-area: footer;
-  color: black;
+  background-color: black;
 }
 
 .menu {
